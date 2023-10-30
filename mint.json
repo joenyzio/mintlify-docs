@@ -51,7 +51,11 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "quickstart", "development", "connectors", "terminal", "accounts", "connect"]
+    },
+    {
+      "group": "Experiences",
+      "pages": ["experiences/overview"]
     },
     {
       "group": "Essentials",
