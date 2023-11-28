@@ -17,8 +17,12 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Contact",
+      "url": "https://empress.eco/contact/"
+    },
+    {
+      "name": "API & SDKS",
+      "url": "https://documenter.getpostman.com/view/30262633/2s9YeG5Wp9"
     }
   ],
   "topbarCtaButton": {
