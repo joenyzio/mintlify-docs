@@ -20,10 +20,10 @@
       "name": "Contact",
       "url": "https://empress.eco/contact/"
     },
-    {
-      "name": "API & SDKS",
-      "url": "https://documenter.getpostman.com/view/30262633/2s9YeG5Wp9"
-    }
+      {
+        "name": "API",
+        "url": "https://documenter.getpostman.com/view/30262633/2s9YeG5Wp9"
+      }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
@@ -31,7 +31,27 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "Products",
+      "url": "api-reference"
+    },
+    {
+      "name": "Features",
+      "url": "api-reference"
+    },
+    {
+      "name": "No Code",
+      "url": "api-reference"
+    },
+    {
+      "name": "Developers",
+      "url": "api-reference"
+    },
+    {
+      "name": "All Products",
+      "url": "api-reference"
+    },
+    {
+      "name": "APIs & SDKs",
       "url": "api-reference"
     }
   ],
