@@ -2353,7 +2353,41 @@
                     ]
                 }
             ]
-        }
+        },
+        {
+          "group": "Insights",
+          "pages": [
+              {
+                  "group": "Getting Started",
+                  "pages": [
+                      "products/insights/getting-started/setup-your-account",
+                      "products/insights/getting-started/create-a-query",
+                      "products/insights/getting-started/create-a-dashboard"
+                  ]
+              },
+              {
+                  "group": "Configuration",
+                  "pages": [
+                    "products/insights/configuration/adding-data-sources"
+                  ]
+              },
+              {
+                  "group": "Query",
+                  "pages": [
+                    "products/insights/query/tables",
+                    "products/insights/query/columns",
+                    "products/insights/query/filters",
+                    "products/insights/query/expressions"
+                  ]
+              },
+              {
+                  "group": "Miscellaneous",
+                  "pages": [
+                    "products/insights/miscellaneous/faq"
+                  ]
+              }
+          ]
+      }
       ]
     },
     {
