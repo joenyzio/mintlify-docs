@@ -17,9 +17,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
+      "name": "Contact",
+      "url": "https://empress.eco/contact/"
+    },
+      {
+        "name": "API",
+        "url": "https://documenter.getpostman.com/view/30262633/2s9YeG5Wp9"
+      }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
@@ -27,31 +31,45 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Products",
+      "url": "products"
+    },
+    {
+      "name": "Developers",
+      "url": "developers"
+    },
+    {
+      "name": "Hosting",
+      "url": "os"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Connect",
+      "icon": "discourse",
+      "url": "https://grow.empress.eco/"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Chat",
+      "icon": "discord",
+      "url": "https://discord.com/invite/3xcm97vBYX"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://blog.empress.eco/"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development", "connectors", "terminal", "accounts", "connect"]
+      "pages": ["introduction", 
+                "quickstart", 
+                "development", 
+                "connectors", 
+                "terminal", 
+                "accounts", 
+                "connect"]
     },
     {
       "group": "Experiences",
@@ -59,7 +77,11 @@
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": ["essentials/markdown", 
+                "essentials/code", 
+                "essentials/images", 
+                "essentials/settings", 
+                "essentials/navigation"]
     },
     {
       "group": "API Documentation",
@@ -71,6 +93,2307 @@
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Products",
+      "pages": [
+          {
+              "group": "Introduction",
+              "pages": [
+                  "products/build/introduction/do-i-need-erp-next",
+                  "products/build/introduction/open-source",
+                  "products/build/introduction/getting-started-with-erp-next",
+                  "products/build/introduction/the-project-champion",
+                  "products/build/introduction/implementation-strategy",
+                  "products/build/introduction/flow-chart",
+                  "products/build/introduction/concepts-and-terms"
+              ]
+          },
+          {
+              "group": "Basic Setup",
+              "pages": [
+                  "products/build/basic-setup/setting-up",
+                  "products/build/basic-setup/company-setup",
+                  "products/build/basic-setup/setting-up-taxes",
+                  "products/build/basic-setup/setting-company-sales-goal",
+                  "products/build/basic-setup/global-defaults",
+                  "products/build/basic-setup/system-settings",
+                  "products/build/basic-setup/letter-head",
+                  "products/build/basic-setup/holiday-list"
+              ]
+          },
+          {
+              "group": "Data Import",
+              "pages": [
+                  "products/build/data-import/data-management",
+                  "products/build/data-import/data-import-tool",
+                  "products/build/data-import/data-export",
+                  "products/build/data-import/chart-of-accounts-importer",
+                  "products/build/data-import/downloading-backups"
+              ]
+          },
+          {
+              "group": "Users and Permissions",
+              "pages": [
+                  "products/build/users-and-permissions/adding-users",
+                  "products/build/users-and-permissions/users-and-permissions",
+                  "products/build/users-and-permissions/role-and-role-profile",
+                  "products/build/users-and-permissions/role-based-permissions",
+                  "products/build/users-and-permissions/user-permissions",
+                  "products/build/users-and-permissions/role-permission-for-page-and-report",
+                  "products/build/users-and-permissions/sharing",
+                  "products/build/users-and-permissions/limited-user",
+                  "products/build/users-and-permissions/administrator",
+                  "products/build/users-and-permissions/difference-between-system-user-and-website-user",
+                  "products/build/users-and-permissions/change-existing-users-email-id",
+                  "products/build/users-and-permissions/change-user-password",
+                  "products/build/users-and-permissions/disable-any-user",
+                  "products/build/users-and-permissions/setting-up-email-signature-in-erp-next",
+                  "products/build/users-and-permissions/user-restriction",
+                  "products/build/users-and-permissions/managing-perm-level-in-permission-manager",
+                  "products/build/users-and-permissions/field-level-permission-management",
+                  "products/build/users-and-permissions/edit-export-print-permissions-for-reports"
+              ]
+          },
+          {
+              "group": "Printing",
+              "pages": [
+                  "products/build/printing/printing-and-branding",
+                  "products/build/printing/print-settings",
+                  "products/build/printing/print-format",
+                  "products/build/printing/print-format-builder",
+                  "products/build/printing/print-style",
+                  "products/build/printing/print-headings",
+                  "products/build/printing/address-template",
+                  "products/build/printing/terms-and-conditions",
+                  "products/build/printing/cheque-print-template",
+                  "products/build/printing/custom-translations",
+                  "products/build/printing/raw-printing"
+              ]
+          },
+          {
+              "group": "Workflows",
+              "pages": [
+                  "products/build/workflows/workflows",
+                  "products/build/workflows/workflow-actions",
+                  "products/build/workflows/workflow-state"
+              ]
+          },
+          {
+              "group": "Email",
+              "pages": [
+                  "products/build/email/email-setup",
+                  "products/build/email/email-domain",
+                  "products/build/email/email-account",
+                  "products/build/email/email-inbox",
+                  "products/build/email/email-template",
+                  "products/build/email/sending-email-from-any-document",
+                  "products/build/email/linking-emails-to-documents",
+                  "products/build/email/email-digest",
+                  "products/build/email/auto-email-reports",
+                  "products/build/email/sms-settings",
+                  "products/build/email/notification",
+                  "products/build/email/document-follow",
+                  "products/build/email/email-dropbox"
+              ]
+          },
+          {
+              "group": "System Configuration",
+              "pages": [
+                  "products/build/system-configuration/settings",
+                  "products/build/system-configuration/show-or-hide-modules",
+                  "products/build/system-configuration/document-naming-settings",
+                  "products/build/system-configuration/session-defaults",
+                  "products/build/system-configuration/bulk-renaming-of-records",
+                  "products/build/system-configuration/bulk-update",
+                  "products/build/system-configuration/domain-settings",
+                  "products/build/system-configuration/energy-point-system"
+              ]
+          },
+          {
+              "group": "Data Privacy",
+              "pages": [
+                  "products/build/data-privacy/personal-data-download",
+                  "products/build/data-privacy/personal-data-deletion"
+              ]
+          },
+          {
+              "group": "Configurations",
+              "pages": [
+                  "products/build/configurations/manage-tree-structure-masters",
+                  "products/build/configurations/set-default-values-for-any-field",
+                  "products/build/configurations/set-precision",
+                  "products/build/configurations/set-language",
+                  "products/build/configurations/edit-submitted-document",
+                  "products/build/configurations/delete-submitted-document",
+                  "products/build/configurations/disable-notification-emails",
+                  "products/build/configurations/set-current-value-for-naming-series",
+                  "products/build/configurations/remove-link-at-the-bottom-of-the-print-page",
+                  "products/build/configurations/remove-line-breaks-in-print-formats",
+                  "products/build/configurations/easy-steps-to-setup-workflow",
+                  "products/build/configurations/to-do-auto-creation",
+                  "products/build/configurations/tree-master-renaming",
+                  "products/build/configurations/letter-head-in-the-report",
+                  "products/build/configurations/sync-doctypes-with-events-calendar",
+                  "products/build/configurations/merging-accounts",
+                  "products/build/configurations/changing-parent-account",
+                  "products/build/configurations/fiscal-year-creation",
+                  "products/build/configurations/freeze-an-account",
+                  "products/build/configurations/freeze-accounting-entries",
+                  "products/build/configurations/common-receivable-account",
+                  "products/build/configurations/common-party-accounting",
+                  "products/build/configurations/freeze-exchange-rate",
+                  "products/build/configurations/linking-stock-warehouse-and-accounts",
+                  "products/build/configurations/print-cancelled-invoice",
+                  "products/build/configurations/default-receivable-payable-account",
+                  "products/build/configurations/mode-of-payment",
+                  "products/build/configurations/maintaining-suppliers-item-code-in-the-item-master",
+                  "products/build/configurations/purchasing-in-different-uom",
+                  "products/build/configurations/amending-purchase-order-after-submit",
+                  "products/build/configurations/setting-employee-wise-leave-approver",
+                  "products/build/configurations/user-permission-based-on-hierarchy",
+                  "products/build/configurations/selling-in-different-uom",
+                  "products/build/configurations/shipping-rule",
+                  "products/build/configurations/adding-margin",
+                  "products/build/configurations/print-settings",
+                  "products/build/configurations/change-the-rate-of-items-in-the-sales-cycle",
+                  "products/build/configurations/erp-next-for-service-organization",
+                  "products/build/configurations/allow-over-delivery-billing",
+                  "products/build/configurations/auto-creation-of-material-request",
+                  "products/build/configurations/item-codification",
+                  "products/build/configurations/serial-number-naming",
+                  "products/build/configurations/track-items-using-barcode",
+                  "products/build/configurations/managing-fractions-in-uom",
+                  "products/build/configurations/item-valuation-setup-and-transactions",
+                  "products/build/configurations/fifo-and-moving-average-calculation-difference",
+                  "products/build/configurations/serialised-item-valuation-rate-calculation",
+                  "products/build/configurations/raw-material-valuation"
+              ]
+          },
+          {
+              "group": "Advanced",
+              "pages": [
+                  "products/build/advanced/setting-workflows-on-masters",
+                  "products/build/advanced/include-document-link-in-notification-email",
+                  "products/build/advanced/export-data-in-excel-csv",
+                  "products/build/advanced/using-custom-domain-on-erp-next",
+                  "products/build/advanced/setup-two-factor-authentication",
+                  "products/build/advanced/configuring-a-reply-to-email-address",
+                  "products/build/advanced/setting-up-sendgrid-smtp-email-in-erp-next",
+                  "products/build/advanced/bank-guarantee",
+                  "products/build/advanced/loyalty-program",
+                  "products/build/advanced/budgeting",
+                  "products/build/advanced/discount-accounting",
+                  "products/build/advanced/invoice-discounting",
+                  "products/build/advanced/semi-auto-payment-reconciliation",
+                  "products/build/advanced/payment-ledger",
+                  "products/build/advanced/manage-foreign-exchange-difference",
+                  "products/build/advanced/immutable-ledger",
+                  "products/build/advanced/allocating-credit-note-and-payment",
+                  "products/build/advanced/reconcile-advance-payment-made-to-the-supplier",
+                  "products/build/advanced/balance-in-temporary-account",
+                  "products/build/advanced/perpetual-inventory-for-non-stock-item",
+                  "products/build/advanced/landed-cost-voucher",
+                  "products/build/advanced/calculating-freight-in-taxes-in-erp-next",
+                  "products/build/advanced/create-supplier-quotation-through-supplier-portal",
+                  "products/build/advanced/using-auto-attendance",
+                  "products/build/advanced/integrating-erp-next-with-biometric-attendance-devices",
+                  "products/build/advanced/project-costing",
+                  "products/build/advanced/project-profitability",
+                  "products/build/advanced/project-and-managing-expenses",
+                  "products/build/advanced/project-from-customer-portal",
+                  "products/build/advanced/drop-ship",
+                  "products/build/advanced/drop-ship-between-subsidiary-companies",
+                  "products/build/advanced/loyalty-points-redemption-in-pos",
+                  "products/build/advanced/inventory-dimension",
+                  "products/build/advanced/delivery-trip",
+                  "products/build/advanced/projected-quantity",
+                  "products/build/advanced/perpetual-inventory",
+                  "products/build/advanced/stock-reservation",
+                  "products/build/advanced/material-transfer-from-delivery-note-and-purchase-receipt",
+                  "products/build/advanced/managing-batch-wise-inventory",
+                  "products/build/advanced/migrate-to-perpetual-inventory",
+                  "products/build/advanced/purpose-of-stock-received-but-not-billed",
+                  "products/build/advanced/opening-stock-balance-entry-for-serialized-and-batch-item",
+                  "products/build/advanced/item-alternative",
+                  "products/build/advanced/subcontracting",
+                  "products/build/advanced/capacity-planning-based-on-work-order",
+                  "products/build/advanced/capacity-planning-based-on-production-order",
+                  "products/build/advanced/subcontracting-in-erp-next",
+                  "products/build/advanced/fetch-child-table-values-using-jinja-tags",
+                  "products/build/advanced/change-custom-field-datatype-after-field-creation",
+                  "products/build/advanced/company-wise-naming-series",
+                  "products/build/advanced/feedback-request-using-a-web-form"
+              ]
+          },
+          {
+              "group": "Errors and Reports",
+              "pages": [
+                  "products/build/errors-and-reports/email-error-in-sending-or-receiving",
+                  "products/build/errors-and-reports/maximum-user-limit-issue",
+                  "products/build/errors-and-reports/import-error-due-to-workflow",
+                  "products/build/errors-and-reports/perm-level-error",
+                  "products/build/errors-and-reports/permission-error-problems",
+                  "products/build/errors-and-reports/using-prepared-report",
+                  "products/build/errors-and-reports/what-if-emails-are-not-being-received-by-the-recipients",
+                  "products/build/errors-and-reports/purchase-invoice---account-type-error",
+                  "products/build/errors-and-reports/fixing-fiscal-year-error",
+                  "products/build/errors-and-reports/round-off-account-validation-message",
+                  "products/build/errors-and-reports/delete-entries-linked-with-gl-entries",
+                  "products/build/errors-and-reports/invoice-rounding-issue",
+                  "products/build/errors-and-reports/customise-cash-flow-report",
+                  "products/build/errors-and-reports/procurement-tracker-report",
+                  "products/build/errors-and-reports/brandwise-items-and-profitability-report",
+                  "products/build/errors-and-reports/open-work-order-report",
+                  "products/build/errors-and-reports/maximum-number-of-fields-in-a-form",
+                  "products/build/errors-and-reports/making-custom-reports",
+                  "products/build/errors-and-reports/deleting-custom-reports",
+                  "products/build/errors-and-reports/report-showing-multiple-lines-for-one-document",
+                  "products/build/errors-and-reports/add-columns-in-standard-report-and-export",
+                  "products/build/errors-and-reports/export-data-for-specific-year-or-filter",
+                  "products/build/errors-and-reports/delivery-note-negative-stock-error",
+                  "products/build/errors-and-reports/maintain-stock-field-frozen-in-the-item-master",
+                  "products/build/errors-and-reports/cannot-enable-serial-and-batch-number",
+                  "products/build/errors-and-reports/stock-balance-and-stock-account-balance-syncing"
+              ]
+          },
+          {
+              "group": "Using Erp Next",
+              "pages": [
+                  "products/build/using-erp-next/introduction"
+              ]
+          },
+          {
+              "group": "Tools",
+              "pages": [
+                  "products/build/tools/to-do",
+                  "products/build/tools/notes",
+                  "products/build/tools/video",
+                  "products/build/tools/calendar",
+                  "products/build/tools/dashboard",
+                  "products/build/tools/global-search",
+                  "products/build/tools/desktop",
+                  "products/build/tools/bank-reconciliation",
+                  "products/build/tools/payment-reconciliation",
+                  "products/build/tools/unreconcile",
+                  "products/build/tools/period-closing-voucher",
+                  "products/build/tools/payment-order",
+                  "products/build/tools/erp-next-quickbooks-migrator",
+                  "products/build/tools/process-statement-of-accounts",
+                  "products/build/tools/quality-inspection",
+                  "products/build/tools/stock-reconciliation",
+                  "products/build/tools/quick-stock-balance",
+                  "products/build/tools/student-attendance-tool",
+                  "products/build/tools/assessment-result-tool",
+                  "products/build/tools/course-scheduling-tool"
+              ]
+          },
+          {
+              "group": "Collaboration Tools",
+              "pages": [
+                  "products/build/collaboration-tools/assignment",
+                  "products/build/collaboration-tools/tags",
+                  "products/build/collaboration-tools/kanban-board",
+                  "products/build/collaboration-tools/filter-by",
+                  "products/build/collaboration-tools/save-filter",
+                  "products/build/collaboration-tools/search-filter",
+                  "products/build/collaboration-tools/collaborating-around-forms",
+                  "products/build/collaboration-tools/delete-company-transactions"
+              ]
+          },
+          {
+              "group": "Transactions",
+              "pages": [
+                  "products/build/transactions/checking-link-between-documents",
+                  "products/build/transactions/duplicate-records",
+                  "products/build/transactions/restore-deleted-documents",
+                  "products/build/transactions/deleting-and-restoring-documents",
+                  "products/build/transactions/bulk-rename",
+                  "products/build/transactions/renaming-documents",
+                  "products/build/transactions/copy-pasting-multiple-records-from-excel",
+                  "products/build/transactions/adding-attachments-to-outgoing-messages",
+                  "products/build/transactions/document-versioning",
+                  "products/build/transactions/access-log",
+                  "products/build/transactions/difference-entry",
+                  "products/build/transactions/post-dated-cheque-entry",
+                  "products/build/transactions/adjusting-withhold-amount",
+                  "products/build/transactions/bulk-payment-entry",
+                  "products/build/transactions/withdrawing-salary-from-owners-equity-account",
+                  "products/build/transactions/invoice-discount-in-payment-entry",
+                  "products/build/transactions/adding-reference-to-journal-entry",
+                  "products/build/transactions/book-discount-allowed-and-received-separately",
+                  "products/build/transactions/accounting-for-bad-debts",
+                  "products/build/transactions/book-petty-cash-entry",
+                  "products/build/transactions/debit-note-for-price-adjustment",
+                  "products/build/transactions/payment-entry-for-capital-account",
+                  "products/build/transactions/fetch-shipping-charges-based-items-value-or-weight",
+                  "products/build/transactions/purchase-invoice-for-services",
+                  "products/build/transactions/procurement-cycle-overview",
+                  "products/build/transactions/request-for-raw-materials-from-sales-order",
+                  "products/build/transactions/applying-a-discount",
+                  "products/build/transactions/amending-sales-order-after-submit",
+                  "products/build/transactions/close-sales-order",
+                  "products/build/transactions/short-close-multiple-orders",
+                  "products/build/transactions/taxes-and-charges",
+                  "products/build/transactions/incoterm-and-named-place",
+                  "products/build/transactions/payment-terms",
+                  "products/build/transactions/record-commission-to-sales-partner",
+                  "products/build/transactions/sales-persons-in-the-sales-transactions",
+                  "products/build/transactions/stock-entry-purpose",
+                  "products/build/transactions/repack-entry",
+                  "products/build/transactions/delivery-from-sales-invoice",
+                  "products/build/transactions/return-rejected-items",
+                  "products/build/transactions/sales-return-management",
+                  "products/build/transactions/material-consumption",
+                  "products/build/transactions/manufacturing-without-creating-bom",
+                  "products/build/transactions/multiple-finished-goods-with-single-raw-material",
+                  "products/build/transactions/customer-provided-items",
+                  "products/build/transactions/serialised-inventory-tracking",
+                  "products/build/transactions/production-scrap-management"
+              ]
+          },
+          {
+              "group": "Automation",
+              "pages": [
+                  "products/build/automation/automation",
+                  "products/build/automation/assignment-rule",
+                  "products/build/automation/milestone-tracking",
+                  "products/build/automation/auto-repeat",
+                  "products/build/automation/event-streaming"
+              ]
+          },
+          {
+              "group": "Apis",
+              "pages": [
+                  "products/build/apis/sales-cycle-integration"
+              ]
+          },
+          {
+              "group": "Accounts",
+              "pages": [
+                  "products/build/accounts/introduction"
+              ]
+          },
+          {
+              "group": "Setup and Opening",
+              "pages": [
+                  "products/build/setup-and-opening/accounting-entries",
+                  "products/build/setup-and-opening/accounts-settings",
+                  "products/build/setup-and-opening/chart-of-accounts",
+                  "products/build/setup-and-opening/opening-balance-in-accounts",
+                  "products/build/setup-and-opening/opening-invoice-creation-tool",
+                  "products/build/setup-and-opening/cost-center",
+                  "products/build/setup-and-opening/cost-center-allocation",
+                  "products/build/setup-and-opening/fiscal-year",
+                  "products/build/setup-and-opening/accounting-period",
+                  "products/build/setup-and-opening/finance-book",
+                  "products/build/setup-and-opening/accounting-dimensions",
+                  "products/build/setup-and-opening/accounting-dimensions-filters",
+                  "products/build/setup-and-opening/bank",
+                  "products/build/setup-and-opening/bank-account"
+              ]
+          },
+          {
+              "group": "Journals and Payments",
+              "pages": [
+                  "products/build/journals-and-payments/payment-terms-status-report",
+                  "products/build/journals-and-payments/journal-entry",
+                  "products/build/journals-and-payments/journal-entry-template",
+                  "products/build/journals-and-payments/payment-entry",
+                  "products/build/journals-and-payments/dunning",
+                  "products/build/journals-and-payments/payment-request",
+                  "products/build/journals-and-payments/mode-of-payment",
+                  "products/build/journals-and-payments/payment-terms",
+                  "products/build/journals-and-payments/payment-terms-template",
+                  "products/build/journals-and-payments/advance-payment-entry",
+                  "products/build/journals-and-payments/inter-company-journal-entry"
+              ]
+          },
+          {
+              "group": "Billing",
+              "pages": [
+                  "products/build/billing/sales-invoice",
+                  "products/build/billing/purchase-invoice",
+                  "products/build/billing/inter-company-invoices",
+                  "products/build/billing/credit-note",
+                  "products/build/billing/debit-note",
+                  "products/build/billing/credit-limit",
+                  "products/build/billing/sales-invoice-without-an-item"
+              ]
+          },
+          {
+              "group": "Taxes",
+              "pages": [
+                  "products/build/taxes/item-tax-template",
+                  "products/build/taxes/tax-withholding-category",
+                  "products/build/taxes/tax-rule",
+                  "products/build/taxes/tax-category",
+                  "products/build/taxes/include-tax-or-charge-in-valuation-or-total",
+                  "products/build/taxes/tax-inclusive-accounting",
+                  "products/build/taxes/types-in-tax-template",
+                  "products/build/taxes/apply-tax-on-another-tax-or-charge",
+                  "products/build/taxes/tax-on-another-tax-amount",
+                  "products/build/taxes/additional-charges-in-payment",
+                  "products/build/taxes/stock-transfer-with-gst",
+                  "products/build/taxes/gst-for-multiple-branches",
+                  "products/build/taxes/naming-series-as-per-gst-rules",
+                  "products/build/taxes/generate-gstr-1-json-file"
+              ]
+          },
+          {
+              "group": "Pricing",
+              "pages": [
+                  "products/build/pricing/pricing-rule",
+                  "products/build/pricing/promotional-scheme",
+                  "products/build/pricing/currency",
+                  "products/build/pricing/setting-up-\"buy-1-get-1-free\"-pricing-rule"
+              ]
+          },
+          {
+              "group": "Multi Currency",
+              "pages": [
+                  "products/build/multi-currency/currency-exchange",
+                  "products/build/multi-currency/exchange-rate-revaluation",
+                  "products/build/multi-currency/multi-currency-accounting",
+                  "products/build/multi-currency/country"
+              ]
+          },
+          {
+              "group": "Retail Operations",
+              "pages": [
+                  "products/build/retail-operations/point-of-sale-profile",
+                  "products/build/retail-operations/point-of-sale",
+                  "products/build/retail-operations/pos-invoice-consolidation"
+              ]
+          },
+          {
+              "group": "Accounting Reports",
+              "pages": [
+                  "products/build/accounting-reports/accounting-reports"
+              ]
+          },
+          {
+              "group": "Deferred Accounting",
+              "pages": [
+                  "products/build/deferred-accounting/deferred-revenue",
+                  "products/build/deferred-accounting/deferred-expense",
+                  "products/build/deferred-accounting/process-deferred-accounting",
+                  "products/build/deferred-accounting/deferred-revenue-expense-report"
+              ]
+          },
+          {
+              "group": "Subscription",
+              "pages": [
+                  "products/build/subscription/subscription",
+                  "products/build/subscription/subscription-plan",
+                  "products/build/subscription/subscription-settings"
+              ]
+          },
+          {
+              "group": "Shareholder Management",
+              "pages": [
+                  "products/build/shareholder-management/shareholder",
+                  "products/build/shareholder-management/share-transfer",
+                  "products/build/shareholder-management/share-reports"
+              ]
+          },
+          {
+              "group": "Asset",
+              "pages": [
+                  "products/build/asset/asset",
+                  "products/build/asset/asset-reports",
+                  "products/build/asset/asset-value-adjustment",
+                  "products/build/asset/asset-category",
+                  "products/build/asset/assets",
+                  "products/build/asset/asset-maintenance",
+                  "products/build/asset/asset-maintenance-team",
+                  "products/build/asset/asset-location",
+                  "products/build/asset/asset-repair",
+                  "products/build/asset/asset-capitalization",
+                  "products/build/asset/scrapping-an-asset",
+                  "products/build/asset/asset-shift-allocation",
+                  "products/build/asset/selling-an-asset",
+                  "products/build/asset/asset-movement",
+                  "products/build/asset/asset-depreciation",
+                  "products/build/asset/asset-maintenance-log",
+                  "products/build/asset/purchasing-an-asset"
+              ]
+          },
+          {
+              "group": "Articles",
+              "pages": [
+                  "products/build/articles/depreciation-entry",
+                  "products/build/articles/moving-asset-from-stock-item-to-fixed-asset-item",
+                  "products/build/articles/automate-lead-creation",
+                  "products/build/articles/crm-analytics",
+                  "products/build/articles/difference-between-lead,-contact,-and-customer",
+                  "products/build/articles/installing-redisearch-to-enable-super-fast-e-commerce-search",
+                  "products/build/articles/loan-management-process",
+                  "products/build/articles/articles",
+                  "products/build/articles/make-a-colorful-gantt-chart",
+                  "products/build/articles/bulk-assign-tasks-in-a-project",
+                  "products/build/articles/automating-issue-assignments-in-erp-next",
+                  "products/build/articles/disable-signup-on-erp-next-website",
+                  "products/build/articles/website-security",
+                  "products/build/articles/website-home-page",
+                  "products/build/articles/website-banner-resizing",
+                  "products/build/articles/3-step-seo-for-your-erp-next-website",
+                  "products/build/articles/2-step-301-redirect-in-your-erp-next-website",
+                  "products/build/articles/integrating-erp-next-with-other-applications"
+              ]
+          },
+          {
+              "group": "Buying",
+              "pages": [
+                  "products/build/buying/buying",
+                  "products/build/buying/request-for-quotation",
+                  "products/build/buying/purchase-order",
+                  "products/build/buying/purchase-taxes-and-charges-template",
+                  "products/build/buying/supplier",
+                  "products/build/buying/supplier-quotation",
+                  "products/build/buying/supplier-scorecard",
+                  "products/build/buying/buying-reports"
+              ]
+          },
+          {
+              "group": "Setup",
+              "pages": [
+                  "products/build/setup/buying-settings",
+                  "products/build/setup/supplier-group",
+                  "products/build/setup/crm-settings",
+                  "products/build/setup/lead-source",
+                  "products/build/setup/opportunity-type",
+                  "products/build/setup/sales-stage",
+                  "products/build/setup/sales-person",
+                  "products/build/setup/customer-group",
+                  "products/build/setup/email-group",
+                  "products/build/setup/contract",
+                  "products/build/setup/appointment-booking-settings",
+                  "products/build/setup/human-resource-setup",
+                  "products/build/setup/hr-settings",
+                  "products/build/setup/daily-work-summary-group",
+                  "products/build/setup/selling-settings",
+                  "products/build/setup/product-bundle",
+                  "products/build/setup/sales-person-target-allocation",
+                  "products/build/setup/sales-taxes-and-charges-template",
+                  "products/build/setup/shipping-rule",
+                  "products/build/setup/party-specific-item",
+                  "products/build/setup/item-price",
+                  "products/build/setup/item-group",
+                  "products/build/setup/unit-of-measure-(uom)",
+                  "products/build/setup/manufacturer",
+                  "products/build/setup/program",
+                  "products/build/setup/course",
+                  "products/build/setup/topic",
+                  "products/build/setup/instructor",
+                  "products/build/setup/room",
+                  "products/build/setup/student-category",
+                  "products/build/setup/academic-term",
+                  "products/build/setup/academic-year",
+                  "products/build/setup/education-settings",
+                  "products/build/setup/basics-of-manufacturing",
+                  "products/build/setup/manufacturing-settings",
+                  "products/build/setup/manufacturing-dashboard"
+              ]
+          },
+          {
+              "group": "Crm",
+              "pages": [
+                  "products/build/crm/introduction-to-crm"
+              ]
+          },
+          {
+              "group": "Sales",
+              "pages": [
+                  "products/build/sales/lead",
+                  "products/build/sales/opportunity",
+                  "products/build/sales/customer",
+                  "products/build/sales/contact",
+                  "products/build/sales/address",
+                  "products/build/sales/appointment"
+              ]
+          },
+          {
+              "group": "Reports",
+              "pages": [
+                  "products/build/reports/crm-reports",
+                  "products/build/reports/human-resources-reports",
+                  "products/build/reports/delayed-tasks-summary",
+                  "products/build/reports/project-profitability-report",
+                  "products/build/reports/project-reports",
+                  "products/build/reports/manufacturing-reports",
+                  "products/build/reports/demand-driven-forecasting",
+                  "products/build/reports/production-planning-report",
+                  "products/build/reports/work-order-summary",
+                  "products/build/reports/job-card-summary",
+                  "products/build/reports/quality-inspection-summary",
+                  "products/build/reports/production-analytics",
+                  "products/build/reports/bom-search",
+                  "products/build/reports/bom-stock-report",
+                  "products/build/reports/bom-operations-time",
+                  "products/build/reports/downtime-analysis",
+                  "products/build/reports/work-order-consumed-materials",
+                  "products/build/reports/returned-materials-against-work-order",
+                  "products/build/reports/issued-items-against-work-order"
+              ]
+          },
+          {
+              "group": "Marketing",
+              "pages": [
+                  "products/build/marketing/campaign",
+                  "products/build/marketing/email-campaign",
+                  "products/build/marketing/newsletter",
+                  "products/build/marketing/linkedin-settings",
+                  "products/build/marketing/twitter-settings",
+                  "products/build/marketing/social-media-post"
+              ]
+          },
+          {
+              "group": "E Commerce",
+              "pages": [
+                  "products/build/e-commerce/set-up-e-commerce",
+                  "products/build/e-commerce/e-commerce-settings",
+                  "products/build/e-commerce/website-item",
+                  "products/build/e-commerce/product-listing",
+                  "products/build/e-commerce/item-group-wise-product-listing",
+                  "products/build/e-commerce/shopping-cart",
+                  "products/build/e-commerce/shop-by-category",
+                  "products/build/e-commerce/coupon-code",
+                  "products/build/e-commerce/wishlist",
+                  "products/build/e-commerce/reviews-and-ratings",
+                  "products/build/e-commerce/e-commerce-search",
+                  "products/build/e-commerce/store-landing-page"
+              ]
+          },
+          {
+              "group": "Employee",
+              "pages": [
+                  "products/build/employee/employee",
+                  "products/build/employee/employment-type",
+                  "products/build/employee/branch",
+                  "products/build/employee/department",
+                  "products/build/employee/designation",
+                  "products/build/employee/employee-grade",
+                  "products/build/employee/employee-group",
+                  "products/build/employee/employee-health-insurance"
+              ]
+          },
+          {
+              "group": "Attendance",
+              "pages": [
+                  "products/build/attendance/attendance",
+                  "products/build/attendance/employee-attendance-tool",
+                  "products/build/attendance/attendance-request",
+                  "products/build/attendance/upload-attendance",
+                  "products/build/attendance/employee-checkin",
+                  "products/build/attendance/auto-attendance",
+                  "products/build/attendance/student-attendance",
+                  "products/build/attendance/student-leave-application"
+              ]
+          },
+          {
+              "group": "Recruitment",
+              "pages": [
+                  "products/build/recruitment/recruitment",
+                  "products/build/recruitment/employee-referral",
+                  "products/build/recruitment/staffing-plan",
+                  "products/build/recruitment/job-opening",
+                  "products/build/recruitment/job-applicant",
+                  "products/build/recruitment/job-offer",
+                  "products/build/recruitment/appointment-letter"
+              ]
+          },
+          {
+              "group": "Training",
+              "pages": [
+                  "products/build/training/training-program",
+                  "products/build/training/training-event",
+                  "products/build/training/training-result",
+                  "products/build/training/training-feedback"
+              ]
+          },
+          {
+              "group": "Employee Lifecycle",
+              "pages": [
+                  "products/build/employee-lifecycle/employee-lifecycle-management",
+                  "products/build/employee-lifecycle/employee-onboarding",
+                  "products/build/employee-lifecycle/employee-promotion",
+                  "products/build/employee-lifecycle/employee-separation",
+                  "products/build/employee-lifecycle/employee-transfer",
+                  "products/build/employee-lifecycle/employee-skill-map"
+              ]
+          },
+          {
+              "group": "Payroll",
+              "pages": [
+                  "products/build/payroll/payroll-setup",
+                  "products/build/payroll/payroll-management",
+                  "products/build/payroll/payroll-period",
+                  "products/build/payroll/income-tax-slab",
+                  "products/build/payroll/salary-component",
+                  "products/build/payroll/salary-structure",
+                  "products/build/payroll/salary-structure-assignment",
+                  "products/build/payroll/salary-slip",
+                  "products/build/payroll/payroll-entry",
+                  "products/build/payroll/additional-salary",
+                  "products/build/payroll/retention-bonus",
+                  "products/build/payroll/employee-incentive",
+                  "products/build/payroll/working-days-calculation-in-the-salary-slip",
+                  "products/build/payroll/how-to-process-payroll-in-erp-next",
+                  "products/build/payroll/setting-flexible-benefits-against-a-benefit-claim",
+                  "products/build/payroll/create-payroll-entry-with-timesheets",
+                  "products/build/payroll/income-tax-calculation-in-erp-next",
+                  "products/build/payroll/salary-structure-and-payroll"
+              ]
+          },
+          {
+              "group": "Employee Tax and Benefits",
+              "pages": [
+                  "products/build/employee-tax-and-benefits/setting-up-income-tax-deduction",
+                  "products/build/employee-tax-and-benefits/employee-tax-exemption-declaration",
+                  "products/build/employee-tax-and-benefits/employee-tax-exemption-proof-submission",
+                  "products/build/employee-tax-and-benefits/employee-other-income",
+                  "products/build/employee-tax-and-benefits/employee-benefit-application",
+                  "products/build/employee-tax-and-benefits/employee-benefit-claim"
+              ]
+          },
+          {
+              "group": "Performance",
+              "pages": [
+                  "products/build/performance/appraisal"
+              ]
+          },
+          {
+              "group": "Travel and Expense Claim",
+              "pages": [
+                  "products/build/travel-and-expense-claim/travel-request",
+                  "products/build/travel-and-expense-claim/employee-advance",
+                  "products/build/travel-and-expense-claim/expense-claim"
+              ]
+          },
+          {
+              "group": "Gratuity",
+              "pages": [
+                  "products/build/gratuity/gratuity",
+                  "products/build/gratuity/gratuity-rule"
+              ]
+          },
+          {
+              "group": "Fleet Management",
+              "pages": [
+                  "products/build/fleet-management/fleet-management",
+                  "products/build/fleet-management/vehicle",
+                  "products/build/fleet-management/vehicle-log",
+                  "products/build/fleet-management/loan"
+              ]
+          },
+          {
+              "group": "Loan Management",
+              "pages": [
+                  "products/build/loan-management/loan-management",
+                  "products/build/loan-management/loan-type",
+                  "products/build/loan-management/loan-security-type",
+                  "products/build/loan-management/loan-security",
+                  "products/build/loan-management/loan-security-price",
+                  "products/build/loan-management/loan-type",
+                  "products/build/loan-management/loan-application",
+                  "products/build/loan-management/loan-application",
+                  "products/build/loan-management/loan-security-pledge",
+                  "products/build/loan-management/loan",
+                  "products/build/loan-management/loan-disbursement",
+                  "products/build/loan-management/loan-interest-accrual",
+                  "products/build/loan-management/loan-repayment",
+                  "products/build/loan-management/loan-write-off",
+                  "products/build/loan-management/loan-security-shortfall",
+                  "products/build/loan-management/loan-security-unpledge",
+                  "products/build/loan-management/process-loan-interest-accrual",
+                  "products/build/loan-management/process-loan-security-shortfall"
+              ]
+          },
+          {
+              "group": "Projects",
+              "pages": [
+                  "products/build/projects/projects",
+                  "products/build/projects/introduction"
+              ]
+          },
+          {
+              "group": "Project Management",
+              "pages": [
+                  "products/build/project-management/project",
+                  "products/build/project-management/tasks",
+                  "products/build/project-management/project-template",
+                  "products/build/project-management/project-type",
+                  "products/build/project-management/project-update",
+                  "products/build/project-management/project-views"
+              ]
+          },
+          {
+              "group": "Time Tracking",
+              "pages": [
+                  "products/build/time-tracking/timesheet",
+                  "products/build/time-tracking/sales-invoice-from-timesheet",
+                  "products/build/time-tracking/salary-slip-from-timesheet",
+                  "products/build/time-tracking/activity-type",
+                  "products/build/time-tracking/activity-cost"
+              ]
+          },
+          {
+              "group": "Quality Management",
+              "pages": [
+                  "products/build/quality-management/quality-management-system",
+                  "products/build/quality-management/quality-meeting",
+                  "products/build/quality-management/quality-procedure-(standard-operating-procedure)",
+                  "products/build/quality-management/quality-goal",
+                  "products/build/quality-management/quality-action",
+                  "products/build/quality-management/quality-feedback",
+                  "products/build/quality-management/quality-review",
+                  "products/build/quality-management/non-conformance",
+                  "products/build/quality-management/quality-feedback-template"
+              ]
+          },
+          {
+              "group": "Selling",
+              "pages": [
+                  "products/build/selling/selling",
+                  "products/build/selling/quotation",
+                  "products/build/selling/sales-order",
+                  "products/build/selling/sales-partner",
+                  "products/build/selling/brand",
+                  "products/build/selling/blanket-order",
+                  "products/build/selling/territory"
+              ]
+          },
+          {
+              "group": "Customer Portal",
+              "pages": [
+                  "products/build/customer-portal/customer-portal",
+                  "products/build/customer-portal/customer-orders-invoices-and-shipping-status",
+                  "products/build/customer-portal/portal-login",
+                  "products/build/customer-portal/sign-up",
+                  "products/build/customer-portal/issues"
+              ]
+          },
+          {
+              "group": "Selling Reports",
+              "pages": [
+                  "products/build/selling-reports/sales-reports"
+              ]
+          },
+          {
+              "group": "Stock",
+              "pages": [
+                  "products/build/stock/introduction"
+              ]
+          },
+          {
+              "group": "Basics",
+              "pages": [
+                  "products/build/basics/introduction",
+                  "products/build/basics/warehouse",
+                  "products/build/basics/item",
+                  "products/build/basics/opening-stock",
+                  "products/build/basics/accounting-of-inventory-stock",
+                  "products/build/basics/price-lists",
+                  "products/build/basics/stock-settings"
+              ]
+          },
+          {
+              "group": "Item Variants",
+              "pages": [
+                  "products/build/item-variants/item-variants",
+                  "products/build/item-variants/item-attribute"
+              ]
+          },
+          {
+              "group": "Stock Transactions",
+              "pages": [
+                  "products/build/stock-transactions/material-request",
+                  "products/build/stock-transactions/purchase-receipt",
+                  "products/build/stock-transactions/delivery-note",
+                  "products/build/stock-transactions/stock-entry",
+                  "products/build/stock-transactions/packing-slip",
+                  "products/build/stock-transactions/shipment",
+                  "products/build/stock-transactions/retaining-sample-stock",
+                  "products/build/stock-transactions/landed-cost-voucher",
+                  "products/build/stock-transactions/pick-list",
+                  "products/build/stock-transactions/putaway-rule"
+              ]
+          },
+          {
+              "group": "Serial and Batch Number",
+              "pages": [
+                  "products/build/serial-and-batch-number/serial-number",
+                  "products/build/serial-and-batch-number/serial-and-batch-bundle",
+                  "products/build/serial-and-batch-number/batch",
+                  "products/build/serial-and-batch-number/installation-note"
+              ]
+          },
+          {
+              "group": "Return",
+              "pages": [
+                  "products/build/return/sales-return",
+                  "products/build/return/purchase-return"
+              ]
+          },
+          {
+              "group": "Stock Reports",
+              "pages": [
+                  "products/build/stock-reports/stock-ledger-report",
+                  "products/build/stock-reports/stock-level-report",
+                  "products/build/stock-reports/bom-explorer",
+                  "products/build/stock-reports/stock-value-and-account-value-comparison-report",
+                  "products/build/stock-reports/closing-stock-balance"
+              ]
+          },
+          {
+              "group": "Support",
+              "pages": [
+                  "products/build/support/support",
+                  "products/build/support/warranty-claim",
+                  "products/build/support/support-settings",
+                  "products/build/support/issue",
+                  "products/build/support/issue-type",
+                  "products/build/support/service-level-agreement",
+                  "products/build/support/maintenance-visit",
+                  "products/build/support/maintenance-schedule",
+                  "products/build/support/support-reports"
+              ]
+          },
+          {
+              "group": "Website",
+              "pages": [
+                  "products/build/website/website",
+                  "products/build/website/homepage",
+                  "products/build/website/web-page",
+                  "products/build/website/blog-post",
+                  "products/build/website/web-forms",
+                  "products/build/website/website-settings",
+                  "products/build/website/website-theme",
+                  "products/build/website/website-route-meta",
+                  "products/build/website/web-page-builder"
+              ]
+          },
+          {
+              "group": "Analytics",
+              "pages": [
+                  "products/build/analytics/analytics"
+              ]
+          },
+          {
+              "group": "Education",
+              "pages": [
+                  "products/build/education/introduction",
+                  "products/build/education/education-domain",
+                  "products/build/education/examination",
+                  "products/build/education/tracking-the-progress"
+              ]
+          },
+          {
+              "group": "Student",
+              "pages": [
+                  "products/build/student/student",
+                  "products/build/student/guardian",
+                  "products/build/student/student-log",
+                  "products/build/student/student-batch",
+                  "products/build/student/student-group",
+                  "products/build/student/student-group-creation-tool"
+              ]
+          },
+          {
+              "group": "Admission",
+              "pages": [
+                  "products/build/admission/student-applicant",
+                  "products/build/admission/program-enrollment",
+                  "products/build/admission/program-enrollment-tool",
+                  "products/build/admission/student-admission"
+              ]
+          },
+          {
+              "group": "Fees",
+              "pages": [
+                  "products/build/fees/fees",
+                  "products/build/fees/fee-structure",
+                  "products/build/fees/fee-category",
+                  "products/build/fees/fee-schedule"
+              ]
+          },
+          {
+              "group": "Schedule",
+              "pages": [
+                  "products/build/schedule/course-schedule",
+                  "products/build/schedule/scheduling-tool"
+              ]
+          },
+          {
+              "group": "Assessment",
+              "pages": [
+                  "products/build/assessment/assessment",
+                  "products/build/assessment/assessment-criteria",
+                  "products/build/assessment/assessment-group",
+                  "products/build/assessment/assessment-plan",
+                  "products/build/assessment/assessment-result",
+                  "products/build/assessment/assessment-plan-status",
+                  "products/build/assessment/final-assessment-grades",
+                  "products/build/assessment/grading-scale"
+              ]
+          },
+          {
+              "group": "Assessment Reports",
+              "pages": [
+                  "products/build/assessment-reports/course-wise-assessment-report"
+              ]
+          },
+          {
+              "group": "Hospitality",
+              "pages": [
+                  "products/build/hospitality/hospitality",
+                  "products/build/hospitality/restaurant",
+                  "products/build/hospitality/restaurant-menu",
+                  "products/build/hospitality/restaurant-reservations",
+                  "products/build/hospitality/restaurant-order-entry",
+                  "products/build/hospitality/hotel-room"
+              ]
+          },
+          {
+              "group": "Manufacturing",
+              "pages": [
+                  "products/build/manufacturing/manufacturing"
+              ]
+          },
+          {
+              "group": "Bill of Materials",
+              "pages": [
+                  "products/build/bill-of-materials/workstation-type",
+                  "products/build/bill-of-materials/bill-of-materials",
+                  "products/build/bill-of-materials/operation",
+                  "products/build/bill-of-materials/workstation",
+                  "products/build/bill-of-materials/routing",
+                  "products/build/bill-of-materials/bom-update-tool",
+                  "products/build/bill-of-materials/bom-comparison-tool",
+                  "products/build/bill-of-materials/bom-costing-in-different-currency",
+                  "products/build/bill-of-materials/managing-multi-level-bom",
+                  "products/build/bill-of-materials/multi-level-bom-creator"
+              ]
+          },
+          {
+              "group": "Production and Material Planning",
+              "pages": [
+                  "products/build/production-and-material-planning/work-order",
+                  "products/build/production-and-material-planning/job-card",
+                  "products/build/production-and-material-planning/production-plan",
+                  "products/build/production-and-material-planning/capacity-planning",
+                  "products/build/production-and-material-planning/downtime-entry"
+              ]
+          },
+          {
+              "group": "Non Profit",
+              "pages": [
+                  "products/build/non-profit/introduction",
+                  "products/build/non-profit/donation",
+                  "products/build/non-profit/tax-exemption-80g-certificate"
+              ]
+          },
+          {
+              "group": "Membership",
+              "pages": [
+                  "products/build/membership/member",
+                  "products/build/membership/membership-type",
+                  "products/build/membership/membership"
+              ]
+          },
+          {
+              "group": "Volunteer",
+              "pages": [
+                  "products/build/volunteer/volunteer-type",
+                  "products/build/volunteer/volunteer"
+              ]
+          },
+          {
+              "group": "Donor",
+              "pages": [
+                  "products/build/donor/donor",
+                  "products/build/donor/donor-type"
+              ]
+          },
+          {
+              "group": "Grant Application",
+              "pages": [
+                  "products/build/grant-application/grant-application"
+              ]
+          },
+          {
+              "group": "Chapter",
+              "pages": [
+                  "products/build/chapter/chapter"
+              ]
+          },
+          {
+              "group": "Customize Erp Next",
+              "pages": [
+                  "products/build/customize-erp-next/customize-erp-next"
+              ]
+          },
+          {
+              "group": "Records",
+              "pages": [
+                  "products/build/records/custom-field",
+                  "products/build/records/customize-form",
+                  "products/build/records/document-title",
+                  "products/build/records/doctype",
+                  "products/build/records/server-script",
+                  "products/build/records/customize-print-format",
+                  "products/build/records/authorization-rule"
+              ]
+          },
+          {
+              "group": "Navigation",
+              "pages": [
+                  "products/build/navigation/desk-page",
+                  "products/build/navigation/customizing-module-visibility"
+              ]
+          },
+          {
+              "group": "Custom Field",
+              "pages": [
+                  "products/build/custom-field/field-types",
+                  "products/build/custom-field/geolocation-field",
+                  "products/build/custom-field/table-multiselect-field",
+                  "products/build/custom-field/dynamic-link-fields",
+                  "products/build/custom-field/signature-field",
+                  "products/build/custom-field/fetching-data-from-a-document",
+                  "products/build/custom-field/edit-a-field-after-submission",
+                  "products/build/custom-field/creating-custom-link-field",
+                  "products/build/custom-field/fetching-data-from-a-linked-master"
+              ]
+          },
+          {
+              "group": "Customize Form",
+              "pages": [
+                  "products/build/customize-form/data-visibility-in-child-tables",
+                  "products/build/customize-form/sorting-order-in-list-view",
+                  "products/build/customize-form/search-record-by-specific-field",
+                  "products/build/customize-form/disable-rounded-total",
+                  "products/build/customize-form/document-title-with-multiple-fields"
+              ]
+          },
+          {
+              "group": "Customize Print Format",
+              "pages": [
+                  "products/build/customize-print-format/add-remove-fields-from-print-format",
+                  "products/build/customize-print-format/customize-tables-within-your-print-format-builder",
+                  "products/build/customize-print-format/customizing-field-visibility-in-print-format",
+                  "products/build/customize-print-format/remove-description-in-print-format",
+                  "products/build/customize-print-format/print-\"centavo\"-in-words-for-usd"
+              ]
+          },
+          {
+              "group": "Client Scripts",
+              "pages": [
+                  "products/build/client-scripts/client-scripts"
+              ]
+          },
+          {
+              "group": "Custom Buttons",
+              "pages": [
+                  "products/build/custom-buttons/add-a-custom-button",
+                  "products/build/custom-buttons/rename-buttons-in-form-view",
+                  "products/build/custom-buttons/hide-buttons-in-form-view"
+              ]
+          },
+          {
+              "group": "Fetch Values",
+              "pages": [
+                  "products/build/fetch-values/update-date-field-based-on-value-in-other-date-field",
+                  "products/build/fetch-values/fetch-value-in-a-child-table-field-from-master",
+                  "products/build/fetch-values/generate-item-code-based-on-custom-logic",
+                  "products/build/fetch-values/sales-invoice-id-based-on-sales-order-id",
+                  "products/build/fetch-values/fetching-values-from-master",
+                  "products/build/fetch-values/fetch-the-entire-address-text-on-a-custom-field"
+              ]
+          },
+          {
+              "group": "Restrictions",
+              "pages": [
+                  "products/build/restrictions/date-validation",
+                  "products/build/restrictions/restrict-cancel-rights",
+                  "products/build/restrictions/restrict-user-based-on-child-record",
+                  "products/build/restrictions/restrict-purpose-of-stock-entry",
+                  "products/build/restrictions/lock-time-sheets-based-on-date"
+              ]
+          },
+          {
+              "group": "Miscellaneous",
+              "pages": [
+                  "products/build/miscellaneous/filter-options-in-select-field",
+                  "products/build/miscellaneous/make-read-only-after-saving",
+                  "products/build/miscellaneous/calculate-incentive-for-sales-team"
+              ]
+          },
+          {
+              "group": "Erp Next Integrations",
+              "pages": [
+                  "products/build/erp-next-integrations/erp-next-integrations"
+              ]
+          },
+          {
+              "group": "Authentication Integration",
+              "pages": [
+                  "products/build/authentication-integration/setting-up-ldap",
+                  "products/build/authentication-integration/setting-up-fairlogin"
+              ]
+          },
+          {
+              "group": "Backup Integration",
+              "pages": [
+                  "products/build/backup-integration/setting-up-dropbox-backups",
+                  "products/build/backup-integration/google-drive-integration",
+                  "products/build/backup-integration/upload-backups-to-amazon-s3"
+              ]
+          },
+          {
+              "group": "Bank Integration",
+              "pages": [
+                  "products/build/bank-integration/plaid-integration"
+              ]
+          },
+          {
+              "group": "E Commerce Integration",
+              "pages": [
+                  "products/build/e-commerce-integration/shopify-integration",
+                  "products/build/e-commerce-integration/woocommerce-integration",
+                  "products/build/e-commerce-integration/amazon-sp-api-integration",
+                  "products/build/e-commerce-integration/unicommerce-integration",
+                  "products/build/e-commerce-integration/zenoti-integration"
+              ]
+          },
+          {
+              "group": "Shipping Integration",
+              "pages": [
+                  "products/build/shipping-integration/erp-next-shipping"
+              ]
+          },
+          {
+              "group": "Google Integration",
+              "pages": [
+                  "products/build/google-integration/google-settings",
+                  "products/build/google-integration/google-calendar-integration",
+                  "products/build/google-integration/google-contacts-integration",
+                  "products/build/google-integration/google-maps-integration"
+              ]
+          },
+          {
+              "group": "Payment Integration",
+              "pages": [
+                  "products/build/payment-integration/setting-up-paypal",
+                  "products/build/payment-integration/razorpay-integration",
+                  "products/build/payment-integration/setting-up-gocardless",
+                  "products/build/payment-integration/setting-up-stripe",
+                  "products/build/payment-integration/setting-up-braintree",
+                  "products/build/payment-integration/paytm-integration",
+                  "products/build/payment-integration/m-pesa-integration"
+              ]
+          },
+          {
+              "group": "Telephony Integration",
+              "pages": [
+                  "products/build/telephony-integration/exotel-integration"
+              ]
+          },
+          {
+              "group": "Regional",
+              "pages": [
+                  "products/build/regional/regional"
+              ]
+          },
+          {
+              "group": "France",
+              "pages": [
+                  "products/build/france/requirements-for-france",
+                  "products/build/france/sales-and-payment-transactions",
+                  "products/build/france/le-fichier-des-ecritures-comptables-fec"
+              ]
+          },
+          {
+              "group": "India",
+              "pages": [
+                  "products/build/india/india-compliance-app",
+                  "products/build/india/lower-deduction-certificate",
+                  "products/build/india/tds-setup-for-india"
+              ]
+          },
+          {
+              "group": "Italy",
+              "pages": [
+                  "products/build/italy/requirements-for-italy",
+                  "products/build/italy/importing-e-invoice-from-supplier"
+              ]
+          },
+          {
+              "group": "Unites States of America",
+              "pages": [
+                  "products/build/unites-states-of-america/taxjar-integration"
+              ]
+          },
+          {
+              "group": "United Arab Emirates",
+              "pages": [
+                  "products/build/united-arab-emirates/requirements-for-united-arab-emirates",
+                  "products/build/united-arab-emirates/uae-regional-fields",
+                  "products/build/united-arab-emirates/uae-vat-201-report-in-erp-next",
+                  "products/build/united-arab-emirates/vat-excise-tax-implementation-for-uae-ksa"
+              ]
+          },
+          {
+              "group": "South Africa",
+              "pages": [
+                  "products/build/south-africa/requirements-for-south-africa",
+                  "products/build/south-africa/vat-audit-report"
+              ]
+          },
+          {
+              "group": "Saudi Arabia",
+              "pages": [
+                  "products/build/saudi-arabia/ksa-vat-management-and-reporting"
+              ]
+          },
+          {
+              "group": "Translations",
+              "pages": [
+                  "products/build/translations/translations"
+              ]
+          },
+          {
+              "group": "Erp Next Subscription",
+              "pages": [
+                  "products/build/erp-next-subscription/upgrade-subscription-plan-and-buy-add-ons",
+                  "products/build/erp-next-subscription/update-subscription-payment-method"
+              ]
+          }
+      ]
+    },
+    {
+      "group": "Developers",
+      "pages": [
+          {
+              "group": "Getting Started",
+              "pages": [
+                  "developers/getting-started/introduction",
+                  "developers/getting-started/prerequisites",
+                  "developers/getting-started/installation"
+              ]
+          },
+          {
+              "group": "Tutorial",
+              "pages": [
+                  "developers/tutorial/frappe-framework-tutorial",
+                  "developers/tutorial/install-and-setup-bench",
+                  "developers/tutorial/create-an-app",
+                  "developers/tutorial/create-a-site",
+                  "developers/tutorial/create-a-doctype",
+                  "developers/tutorial/doctype-features",
+                  "developers/tutorial/controller-methods",
+                  "developers/tutorial/types-of-doctype",
+                  "developers/tutorial/form-scripts",
+                  "developers/tutorial/web-view-pages",
+                  "developers/tutorial/whats-next"
+              ]
+          },
+          {
+              "group": "Basics",
+              "pages": [
+                  "developers/basics/what-is-frappe-framework",
+                  "developers/basics/why-frappe-framework",
+                  "developers/basics/architecture",
+                  "developers/basics/directory-structure",
+                  "developers/basics/apps",
+                  "developers/basics/sites",
+                  "developers/basics/understanding-doctypes",
+                  "developers/basics/users-and-permissions",
+                  "developers/basics/asset-bundling",
+                  "developers/basics/static-assets",
+                  "developers/basics/configuration",
+                  "developers/basics/audit-trail"
+              ]
+          },
+          {
+              "group": "Doctypes",
+              "pages": [
+                  "developers/doctypes/docstatus",
+                  "developers/doctypes/module",
+                  "developers/doctypes/virtual-docfield",
+                  "developers/doctypes/field-types",
+                  "developers/doctypes/naming",
+                  "developers/doctypes/docfield",
+                  "developers/doctypes/controllers",
+                  "developers/doctypes/form-view-settings",
+                  "developers/doctypes/child-table-doctype",
+                  "developers/doctypes/single-doctype",
+                  "developers/doctypes/virtual-doctypes",
+                  "developers/doctypes/actions-and-links",
+                  "developers/doctypes/customizing-doctypes"
+              ]
+          },
+          {
+              "group": "Python API",
+              "pages": [
+                  "developers/python-api/realtime-socket",
+                  "developers/python-api/background-jobs",
+                  "developers/python-api/document-api",
+                  "developers/python-api/database-api",
+                  "developers/python-api/jinja-api",
+                  "developers/python-api/request-lifecycle",
+                  "developers/python-api/language-resolution",
+                  "developers/python-api/utility-functions",
+                  "developers/python-api/responses",
+                  "developers/python-api/search",
+                  "developers/python-api/hooks",
+                  "developers/python-api/rest-api",
+                  "developers/python-api/fulltextsearch-api",
+                  "developers/python-api/dialog-api",
+                  "developers/python-api/query-builder"
+              ]
+          },
+          {
+              "group": "JS API",
+              "pages": [
+                  "developers/js-api/developer-api",
+                  "developers/js-api/form-scripts",
+                  "developers/js-api/controls",
+                  "developers/js-api/list",
+                  "developers/js-api/page-api",
+                  "developers/js-api/tree",
+                  "developers/js-api/common-utilities-api",
+                  "developers/js-api/dialog-api",
+                  "developers/js-api/chart-api",
+                  "developers/js-api/scanner-api",
+                  "developers/js-api/server-calls-ajax",
+                  "developers/js-api/logging",
+                  "developers/js-api/form-tours"
+              ]
+          },
+          {
+              "group": "Desk",
+              "pages": [
+                  "developers/desk/desk",
+                  "developers/desk/reports",
+                  "developers/desk/printing",
+                  "developers/desk/attachments",
+                  "developers/desk/scripting",
+                  "developers/desk/document-template"
+              ]
+          },
+          {
+              "group": "Guides",
+              "pages": [
+                  "developers/guides/guides"
+              ]
+          },
+          {
+              "group": "Guides - Basics",
+              "pages": [
+                  "developers/guides-basics/frappe-apps",
+                  "developers/guides-basics/contribute-translations",
+                  "developers/guides-basics/frappe-ajax-call",
+                  "developers/guides-basics/how-to-enable-backup-encryption",
+                  "developers/guides-basics/sites",
+                  "developers/guides-basics/translations",
+                  "developers/guides-basics/email-groups"
+              ]
+          },
+          {
+              "group": "Guides - App Development",
+              "pages": [
+                  "developers/guides-app-development/custom-action-in-link-field",
+                  "developers/guides-app-development/executing-code-on-doctype-events",
+                  "developers/guides-app-development/how-to-improve-a-standard-control",
+                  "developers/guides-app-development/running-background-jobs",
+                  "developers/guides-app-development/adding-custom-button-to-form",
+                  "developers/guides-app-development/trigger-event-on-deletion-of-grid-row",
+                  "developers/guides-app-development/dialogs-types",
+                  "developers/guides-app-development/overriding-link-query-by-custom-script",
+                  "developers/guides-app-development/set-up-a-new-connected-app",
+                  "developers/guides-app-development/custom-module-icon",
+                  "developers/guides-app-development/insert-a-document-via-api",
+                  "developers/guides-app-development/how-to-create-custom-fields-during-app-installation",
+                  "developers/guides-app-development/using-html-templates-in-javascript",
+                  "developers/guides-app-development/how-to-enable-developer-mode-in-frappe",
+                  "developers/guides-app-development/fetch-a-field-value-from-a-document-into-a-transaction",
+                  "developers/guides-app-development/adding-module-icons-on-desktop",
+                  "developers/guides-app-development/single-type-doctype",
+                  "developers/guides-app-development/prerequisites",
+                  "developers/guides-app-development/adding-social-login-provider",
+                  "developers/guides-app-development/exporting-customizations-to-your-app",
+                  "developers/guides-app-development/caching"
+              ]
+          },
+          {
+              "group": "Guides - Deployment",
+              "pages": [
+                  "developers/guides-deployment/packages",
+                  "developers/guides-deployment/email-notifications-for-failed-background-jobs",
+                  "developers/guides-deployment/how-to-migrate-doctype-changes-to-production",
+                  "developers/guides-deployment/migrations",
+                  "developers/guides-deployment/how-to-enable-social-logins"
+              ]
+          },
+          {
+              "group": "Guides- Reports and Printing",
+              "pages": [
+                  "developers/guides-reports-and-printing/getting-information-from-another-document-in-print-format",
+                  "developers/guides-reports-and-printing/where-do-i-find-standard-print-formats",
+                  "developers/guides-reports-and-printing/how-to-make-query-report",
+                  "developers/guides-reports-and-printing/report-print-formats",
+                  "developers/guides-reports-and-printing/script-report"
+              ]
+          },
+          {
+              "group": "Guides - Portal Development",
+              "pages": [
+                  "developers/guides-portal-development/pages",
+                  "developers/guides-portal-development/ordering",
+                  "developers/guides-portal-development/adding-pages",
+                  "developers/guides-portal-development/table-of-contents",
+                  "developers/guides-portal-development/dynamic-pages",
+                  "developers/guides-portal-development/portal-roles",
+                  "developers/guides-portal-development/customizing-web-forms",
+                  "developers/guides-portal-development/generators",
+                  "developers/guides-portal-development/redirects"
+              ]
+          },
+          {
+              "group": "Guides - Data",
+              "pages": [
+                  "developers/guides-data/using-the-data-migration-tool",
+                  "developers/guides-data/import-large-csv-file"
+              ]
+          },
+          {
+              "group": "Guides- Integration",
+              "pages": [
+                  "developers/guides-integration/google-gsuite",
+                  "developers/guides-integration/token-based-authentication",
+                  "developers/guides-integration/openid-connect-and-frappe-social-login",
+                  "developers/guides-integration/webhooks",
+                  "developers/guides-integration/social-login-key",
+                  "developers/guides-integration/google-calendar-integration",
+                  "developers/guides-integration/how-to-setup-oauth-2",
+                  "developers/guides-integration/token-based-authentication",
+                  "developers/guides-integration/using-frappe-as-oauth-service"
+              ]
+          },
+          {
+              "group": "Integration - REST API",
+              "pages": [
+                  "developers/integration-rest-api/introduction",
+                  "developers/integration-rest-api/simple-authentication",
+                  "developers/integration-rest-api/token-based-authentication",
+                  "developers/integration-rest-api/oauth-2",
+                  "developers/integration-rest-api/listing-documents",
+                  "developers/integration-rest-api/manipulating-doctypes"
+              ]
+          },
+          {
+              "group": "Guides - Database Settings",
+              "pages": [
+                  "developers/guides-database-settings/setup-read-operations-from-secondary-mysql-system",
+                  "developers/guides-database-settings/postgres-database-setup"
+              ]
+          },
+          {
+              "group": "Guides - Automated Testing",
+              "pages": [
+                  "developers/guides-automated-testing/automated-testing",
+                  "developers/guides-automated-testing/unit-testing",
+                  "developers/guides-automated-testing/ui-integration-testing",
+                  "developers/guides-automated-testing/ui-testing-with-frappe-api"
+              ]
+          },
+          {
+              "group": "Guides - Desk",
+              "pages": [
+                  "developers/guides-desk/desk-customization",
+                  "developers/guides-desk/formatter-for-link-fields",
+                  "developers/guides-desk/making-charts"
+              ]
+          },
+          {
+              "group": "Desk - Workspace",
+              "pages": [
+                  "developers/desk-workspace/workspace",
+                  "developers/desk-workspace/customization",
+                  "developers/desk-workspace/blocks",
+                  "developers/desk-workspace/access"
+              ]
+          },
+          {
+              "group": "Desk - Reports",
+              "pages": [
+                  "developers/desk-reports/script-report",
+                  "developers/desk-reports/query-report",
+                  "developers/desk-reports/report-builder"
+              ]
+          },
+          {
+              "group": "Desk - Scripting",
+              "pages": [
+                  "developers/desk-scripting/client-script",
+                  "developers/desk-scripting/system-console",
+                  "developers/desk-scripting/server-script",
+                  "developers/desk-scripting/script-api"
+              ]
+          },
+          {
+              "group": "Portal",
+              "pages": [
+                  "developers/portal/discussions",
+                  "developers/portal/portal-pages",
+                  "developers/portal/blog-post"
+              ]
+          },
+          {
+              "group": "Portal - Web Form",
+              "pages": [
+                  "developers/portal-web-form/web-form",
+                  "developers/portal-web-form/settings",
+                  "developers/portal-web-form/customization"
+              ]
+          },
+          {
+              "group": "Integration",
+              "pages": [
+                  "developers/integration/razorpay",
+                  "developers/integration/google-drive",
+                  "developers/integration/setting-up-ldap",
+                  "developers/integration/microsoft-email-oauth"
+              ]
+          },
+          {
+              "group": "Videos",
+              "pages": [
+                  "developers/videos/video-tutorials-for-frappe-framework"
+              ]
+          },
+          {
+              "group": "Bench",
+              "pages": [
+                  "developers/bench/bench",
+                  "developers/bench/bench-commands",
+                  "developers/bench/frappe-commands",
+                  "developers/bench/bench-extending-the-cli"
+              ]
+          },
+          {
+              "group": "Bench - Reference",
+              "pages": [
+                  "developers/bench-reference/commands-reference",
+                  "developers/bench-reference/bench-new-site",
+                  "developers/bench-reference/bench-drop-site",
+                  "developers/bench-reference/bench-migrate",
+                  "developers/bench-reference/bench-backup",
+                  "developers/bench-reference/bench-reinstall",
+                  "developers/bench-reference/bench-list-apps",
+                  "developers/bench-reference/bench-uninstall-app",
+                  "developers/bench-reference/bench-show-config",
+                  "developers/bench-reference/bench-set-config",
+                  "developers/bench-reference/bench-restore",
+                  "developers/bench-reference/bench-partial-restore",
+                  "developers/bench-reference/bench-version",
+                  "developers/bench-reference/bench-transform-database",
+                  "developers/bench-reference/bench-trim-database",
+                  "developers/bench-reference/bench-trim-tables"
+              ]
+          },
+          {
+              "group": "Bench - Guides",
+              "pages": [
+                  "developers/bench-guides/adding-custom-domains-to-your-site",
+                  "developers/bench-guides/configuring-https",
+                  "developers/bench-guides/diagnosing-the-scheduler",
+                  "developers/bench-guides/using-lets-encrypt-to-setup-https",
+                  "developers/bench-guides/setting-limits-for-your-site",
+                  "developers/bench-guides/setup-multitenancy",
+                  "developers/bench-guides/setup-production"
+              ]
+          },
+          {
+              "group": "Bench - Resources",
+              "pages": [
+                  "developers/bench-resources/background-services",
+                  "developers/bench-resources/bench-commands-cheatsheet",
+                  "developers/bench-resources/bench-procfile"
+              ]
+          },
+          {
+              "group": "Deployment",
+              "pages": [
+                  "developers/deployment/database-migrations",
+                  "developers/deployment/production-setup",
+                  "developers/deployment/zero*-downtime-migrations",
+                  "developers/deployment/rate-limiting"
+              ]
+          },
+          {
+              "group": "Writing Tests",
+              "pages": [
+                  "developers/writing-tests/testing",
+                  "developers/writing-tests/ui-testing"
+              ]
+          },
+          {
+              "group": "Hidden Features",
+              "pages": [
+                  "developers/hidden-features/desk",
+                  "developers/hidden-features/debugging",
+                  "developers/hidden-features/how-to-contribute",
+                  "developers/hidden-features/profiling-and-monitoring",
+                  "developers/hidden-features/translations",
+                  "developers/hidden-features/logging"
+              ]
+          }
+      ]
+  },
+  {
+    "group": "OS",
+    "pages": [
+        {
+            "group": "Getting Started",
+            "pages": [
+                "os/getting-started/introduction"
+            ]
+        },
+        {
+            "group": "Faq",
+            "pages": [
+                "os/faq/general",
+                "os/faq/site",
+                "os/faq/custom-apps",
+                "os/faq/billing",
+                "os/faq/support",
+                "os/faq/frappe-cloud-infra-architecture"
+            ]
+        },
+        {
+            "group": "Site",
+            "pages": [
+                "os/site/creating-a-new-site",
+                "os/site/migrate-an-existing-site",
+                "os/site/drop-delete-your-site",
+                "os/site/custom-domains",
+                "os/site/how-to-upgrade-major-version",
+                "os/site/site-config",
+                "os/site/delete-site",
+                "os/site/monitoring",
+                "os/site/database-access",
+                "os/site/backups",
+                "os/site/activity",
+                "os/site/jobs",
+                "os/site/version-upgrade",
+                "os/site/move-site-to-private-bench",
+                "os/site/move-site-across-region",
+                "os/site/move-site-across-server"
+            ]
+        },
+        {
+            "group": "Servers",
+            "pages": [
+                "os/servers/introduction",
+                "os/servers/creating-new-servers",
+                "os/servers/creating-new-bench",
+                "os/servers/change-plan",
+                "os/servers/delete-servers",
+                "os/servers/frappe-cloud-hybrid",
+                "os/servers/guidelines-for-choosing-a-server-plan"
+            ]
+        },
+        {
+            "group": "Hybrid Cloud",
+            "pages": [
+                "os/hybrid-cloud/introduction",
+                "os/hybrid-cloud/self-hosted-server-hybrid-cloud-architecture",
+                "os/hybrid-cloud/folder-structure",
+                "os/hybrid-cloud/creating-new-self-hosted-servers-hybrid-cloud"
+            ]
+        },
+        {
+            "group": "Private Benches",
+            "pages": [
+                "os/private-benches/public-vs-private-bench",
+                "os/private-benches/creating-a-new-bench",
+                "os/private-benches/how-to-install-a-custom-app",
+                "os/private-benches/ssh-access",
+                "os/private-benches/updating-a-bench",
+                "os/private-benches/debugging",
+                "os/private-benches/bench-config"
+            ]
+        },
+        {
+            "group": "Billing",
+            "pages": [
+                "os/billing/billing-cycle",
+                "os/billing/bill-payments",
+                "os/billing/disable-account-cancel-subscription",
+                "os/billing/account-deletion",
+                "os/billing/plans",
+                "os/billing/payment-options"
+            ]
+        },
+        {
+            "group": "Marketplace",
+            "pages": [
+                "os/marketplace/frappe-cloud-marketplace-overview",
+                "os/marketplace/publishing-an-app-to-marketplace",
+                "os/marketplace/app-authoring-guidelines",
+                "os/marketplace/guidelines-for-publishing-an-app",
+                "os/marketplace/payouts"
+            ]
+        },
+        {
+            "group": "Saas",
+            "pages": [
+                "os/saas/build-your-own-saas",
+                "os/saas/signups-and-onboarding"
+            ]
+        },
+        {
+            "group": "Team",
+            "pages": [
+                "os/team/switching-between-teams",
+                "os/team/managing-team-members",
+                "os/team/granular-permissions",
+                "os/team/create-child-teams"
+            ]
+        },
+        {
+            "group": "Api",
+            "pages": [
+                "os/api/introduction",
+                "os/api/create-an-access-token",
+                "os/api/authentication",
+                "os/api/sites",
+                "os/api/billing"
+            ]
+        },
+        {
+            "group": "Support Handbook",
+            "pages": [
+                "os/support-handbook/schedule-version-upgrade",
+                "os/support-handbook/bench-update",
+                "os/support-handbook/support-site",
+                "os/support-handbook/support-team",
+                "os/support-handbook/support-bench",
+                "os/support-handbook/support-ops",
+                "os/support-handbook/how-bench-deploy-works?"
+            ]
+        },
+        {
+            "group": "Fc Handbook",
+            "pages": [
+                "os/fc-handbook/fc-onboarding-manual",
+                "os/fc-handbook/frappe-cloud-handbook"
+            ]
+        }
+    ]
+},
+    {
+      "group": "Other Empress Products",
+      "pages": [
+          {
+              "group": "Sell",
+              "pages": ["products/sell/overview"]
+          },
+          {
+            "group": "Finance",
+            "pages": [
+                {
+                    "group": "Basics",
+                    "pages": [
+                        "products/finance/basics/introduction",
+                        "products/finance/basics/accounting-basics",
+                        "products/finance/basics/interface"
+                    ]
+                },
+                {
+                    "group": "Setting Up",
+                    "pages": [
+                        "products/finance/setting-up/getting-started",
+                        "products/finance/setting-up/intitial-entries",
+                        "products/finance/setting-up/opening-balances"
+                    ]
+                },
+                {
+                    "group": "Transactions",
+                    "pages": [
+                        "products/finance/transactions/transactional-entries",
+                        "products/finance/transactions/sales-invoices",
+                        "products/finance/transactions/purchase-invoices",
+                        "products/finance/transactions/discount-accounting",
+                        "products/finance/transactions/multi-currency-invoicing",
+                        "products/finance/transactions/payments",
+                        "products/finance/transactions/journal-entries"
+                    ]
+                },
+                {
+                    "group": "Entries",
+                    "pages": [
+                        "products/finance/entries/entries",
+                        "products/finance/entries/items",
+                        "products/finance/entries/party",
+                        "products/finance/entries/taxes",
+                        "products/finance/entries/price-list"
+                    ]
+                },
+                {
+                    "group": "Inventory",
+                    "pages": [
+                        "products/finance/inventory/introduction",
+                        "products/finance/inventory/stock-movement",
+                        "products/finance/inventory/shipment",
+                        "products/finance/inventory/purchase-receipt",
+                        "products/finance/inventory/stock-ledger",
+                        "products/finance/inventory/stock-balance",
+                        "products/finance/inventory/batches",
+                        "products/finance/inventory/serial-number",
+                        "products/finance/inventory/settings"
+                    ]
+                },
+                {
+                    "group": "Analytics",
+                    "pages": [
+                        "products/finance/analytics/dashboard",
+                        "products/finance/analytics/reports",
+                        "products/finance/analytics/general-ledger",
+                        "products/finance/analytics/proft-and-loss",
+                        "products/finance/analytics/balance-sheet",
+                        "products/finance/analytics/trial-balance"
+                    ]
+                },
+                {
+                    "group": "Miscellaneous ",
+                    "pages": [
+                        "products/finance/miscellaneous /quick-search",
+                        "products/finance/miscellaneous /number-series",
+                        "products/finance/miscellaneous /import-wizard",
+                        "products/finance/miscellaneous /print-templates",
+                        "products/finance/miscellaneous /chart-of-accounts",
+                        "products/finance/miscellaneous /customize-form",
+                        "products/finance/miscellaneous /settings"
+                    ]
+                }
+            ]
+        },
+        {
+          "group": "Talent",
+          "pages": [
+              {
+                  "group": "Intro",
+                  "pages": [
+                      "products/talent/intro/frappe-hr",
+                      "products/talent/intro/videos"
+                  ]
+              },
+              {
+                  "group": "Organization Management",
+                  "pages": [
+                      "products/talent/organization-management/employee",
+                      "products/talent/organization-management/employment-type",
+                      "products/talent/organization-management/branch",
+                      "products/talent/organization-management/department",
+                      "products/talent/organization-management/designation",
+                      "products/talent/organization-management/employee-grade",
+                      "products/talent/organization-management/employee-group",
+                      "products/talent/organization-management/employee-health-insurance",
+                      "products/talent/organization-management/organizational-chart"
+                  ]
+              },
+              {
+                  "group": "Attendance",
+                  "pages": [
+                      "products/talent/attendance/attendance",
+                      "products/talent/attendance/employee-attendance-tool",
+                      "products/talent/attendance/attendance-request",
+                      "products/talent/attendance/upload-attendance",
+                      "products/talent/attendance/employee-checkin",
+                      "products/talent/attendance/auto-attendance",
+                      "products/talent/attendance/integrating-frappe-hr-with-biometric-attendance-devices"
+                  ]
+              },
+              {
+                  "group": "Shift Management",
+                  "pages": [
+                      "products/talent/shift-management/shift-management",
+                      "products/talent/shift-management/shift-type",
+                      "products/talent/shift-management/shift-request",
+                      "products/talent/shift-management/shift-assignment"
+                  ]
+              },
+              {
+                  "group": "Leave Management",
+                  "pages": [
+                      "products/talent/leave-management/leaves",
+                      "products/talent/leave-management/holiday-list",
+                      "products/talent/leave-management/leave-type",
+                      "products/talent/leave-management/leave-period",
+                      "products/talent/leave-management/leave-policy",
+                      "products/talent/leave-management/leave-policy-assignment",
+                      "products/talent/leave-management/leave-allocation",
+                      "products/talent/leave-management/leave-control-panel",
+                      "products/talent/leave-management/leave-application",
+                      "products/talent/leave-management/compensatory-leave-request",
+                      "products/talent/leave-management/leave-encashment",
+                      "products/talent/leave-management/leave-block-list",
+                      "products/talent/leave-management/leave-ledger-entry"
+                  ]
+              },
+              {
+                  "group": "Performance",
+                  "pages": [
+                      "products/talent/performance/appraisal-template",
+                      "products/talent/performance/appraisal-cycle",
+                      "products/talent/performance/appraisal",
+                      "products/talent/performance/employee-performance-feedback",
+                      "products/talent/performance/goal",
+                      "products/talent/performance/appraisal-overview-report"
+                  ]
+              },
+              {
+                  "group": "Travel and Expense Claim",
+                  "pages": [
+                      "products/talent/travel-and-expense-claim/employee-advance",
+                      "products/talent/travel-and-expense-claim/expense-claim",
+                      "products/talent/travel-and-expense-claim/travel-request"
+                  ]
+              },
+              {
+                  "group": "Recruiment",
+                  "pages": [
+                      "products/talent/recruiment/recruitment",
+                      "products/talent/recruiment/staffing-plan",
+                      "products/talent/recruiment/job-requisition",
+                      "products/talent/recruiment/job-opening",
+                      "products/talent/recruiment/job-portal",
+                      "products/talent/recruiment/job-applicant",
+                      "products/talent/recruiment/interview-management",
+                      "products/talent/recruiment/interview-type",
+                      "products/talent/recruiment/interview-round",
+                      "products/talent/recruiment/interview",
+                      "products/talent/recruiment/interview-feedback",
+                      "products/talent/recruiment/job-offer",
+                      "products/talent/recruiment/appointment-letter",
+                      "products/talent/recruiment/employee-referral"
+                  ]
+              },
+              {
+                  "group": "Training",
+                  "pages": [
+                      "products/talent/training/training-program",
+                      "products/talent/training/training-event",
+                      "products/talent/training/training-result",
+                      "products/talent/training/training-feedback"
+                  ]
+              },
+              {
+                  "group": "Employee Lifecycle",
+                  "pages": [
+                      "products/talent/employee-lifecycle/employee-lifecycle-management",
+                      "products/talent/employee-lifecycle/employee-onboarding",
+                      "products/talent/employee-lifecycle/employee-promotion",
+                      "products/talent/employee-lifecycle/employee-separation",
+                      "products/talent/employee-lifecycle/employee-transfer",
+                      "products/talent/employee-lifecycle/employee-skill-map",
+                      "products/talent/employee-lifecycle/exit-interview"
+                  ]
+              },
+              {
+                  "group": "Fleet Management",
+                  "pages": [
+                      "products/talent/fleet-management/fleet-management",
+                      "products/talent/fleet-management/vehicle",
+                      "products/talent/fleet-management/vehicle-log"
+                  ]
+              },
+              {
+                  "group": "Salary Payouts",
+                  "pages": [
+                      "products/talent/salary-payouts/payroll-setup",
+                      "products/talent/salary-payouts/payroll-management",
+                      "products/talent/salary-payouts/payroll-period",
+                      "products/talent/salary-payouts/income-tax-slab",
+                      "products/talent/salary-payouts/salary-component",
+                      "products/talent/salary-payouts/salary-structure",
+                      "products/talent/salary-payouts/salary-structure-assignment",
+                      "products/talent/salary-payouts/salary-slip",
+                      "products/talent/salary-payouts/payroll-entry",
+                      "products/talent/salary-payouts/additional-salary",
+                      "products/talent/salary-payouts/retention-bonus",
+                      "products/talent/salary-payouts/employee-incentive"
+                  ]
+              },
+              {
+                  "group": "Employee Tax and Benefits",
+                  "pages": [
+                      "products/talent/employee-tax-and-benefits/setting-up-income-tax-deduction",
+                      "products/talent/employee-tax-and-benefits/employee-tax-exemption-declaration",
+                      "products/talent/employee-tax-and-benefits/employee-tax-exemption-proof-submission",
+                      "products/talent/employee-tax-and-benefits/employee-other-income",
+                      "products/talent/employee-tax-and-benefits/employee-benefit-application",
+                      "products/talent/employee-tax-and-benefits/employee-benefit-claim"
+                  ]
+              },
+              {
+                  "group": "Gratuity",
+                  "pages": [
+                      "products/talent/gratuity/gratuity",
+                      "products/talent/gratuity/gratuity-rule"
+                  ]
+              },
+              {
+                  "group": "Loans",
+                  "pages": [
+                      "products/talent/loans/loan-type",
+                      "products/talent/loans/loan-application",
+                      "products/talent/loans/loan"
+                  ]
+              },
+              {
+                  "group": "Setup",
+                  "pages": [
+                      "products/talent/setup/human-resource-setup",
+                      "products/talent/setup/hr-settings",
+                      "products/talent/setup/payroll-settings",
+                      "products/talent/setup/daily-work-summary-group"
+                  ]
+              },
+              {
+                  "group": "Reports",
+                  "pages": [
+                      "products/talent/reports/human-resources-reports"
+                  ]
+              },
+              {
+                  "group": "HR Articles",
+                  "pages": [
+                      "products/talent/hr-articles/user-permission-based-on-hierarchy",
+                      "products/talent/hr-articles/setting-employee-wise-leave-approver",
+                      "products/talent/hr-articles/department-wise-leave-approval-in-erpnext",
+                      "products/talent/hr-articles/using-auto-attendance",
+                      "products/talent/hr-articles/configuring-earned-leave",
+                      "products/talent/hr-articles/leave-calculation-in-salary-slip",
+                      "products/talent/hr-articles/how-to-encash-unused-leaves-using-salary-slips",
+                      "products/talent/hr-articles/leave-allocation-after-compensatory-leave-request"
+                  ]
+              },
+              {
+                  "group": "Payroll Articles",
+                  "pages": [
+                      "products/talent/payroll-articles/how-to-process-payroll-in-erpnext",
+                      "products/talent/payroll-articles/salary-structure-and-payroll",
+                      "products/talent/payroll-articles/income-tax-calculation-in-erpnext",
+                      "products/talent/payroll-articles/create-payroll-entry-with-timesheets",
+                      "products/talent/payroll-articles/working-days-calculation-in-the-salary-slip",
+                      "products/talent/payroll-articles/setting-flexible-benefits-against-a-benefit-claim"
+                  ]
+              },
+              {
+                  "group": "Frappe HR Mobile",
+                  "pages": [
+                      "products/talent/frappe-hr-mobile/mobile-app-installation"
+                  ]
+              }
+          ]
+      },
+          {
+              "group": "Experience",
+              "pages": ["products/experience/overview"]
+          },
+          {
+              "group": "Connect",
+              "pages": ["products/connect/overview"]
+          },
+          {
+              "group": "Share",
+              "pages": ["products/share/overview"]
+          },
+          {
+            "group": "Learn",
+            "pages": [
+                {
+                    "group": "Get Started",
+                    "pages": [
+                        "products/learn/get-started/setup-your-account"
+                    ]
+                },
+                {
+                    "group": "Course Creation",
+                    "pages": [
+                        "products/learn/course-creation/create-a-course",
+                        "products/learn/course-creation/add-a-chapter",
+                        "products/learn/course-creation/add-a-lesson",
+                        "products/learn/course-creation/create-a-quiz"
+                    ]
+                },
+                {
+                    "group": "Batch Creation",
+                    "pages": [
+                        "products/learn/batch-creation/create-a-batch",
+                        "products/learn/batch-creation/create-a-live-class"
+                    ]
+                },
+                {
+                    "group": "Roles",
+                    "pages": [
+                        "products/learn/roles/who-can-create-a-course"
+                    ]
+                },
+                {
+                    "group": "Miscellaneous",
+                    "pages": [
+                        "products/learn/miscellaneous/faq"
+                    ]
+                }
+            ]
+        },
+        {
+          "group": "Insights",
+          "pages": [
+              {
+                  "group": "Getting Started",
+                  "pages": [
+                      "products/insights/getting-started/setup-your-account",
+                      "products/insights/getting-started/create-a-query",
+                      "products/insights/getting-started/create-a-dashboard"
+                  ]
+              },
+              {
+                  "group": "Configuration",
+                  "pages": [
+                    "products/insights/configuration/adding-data-sources"
+                  ]
+              },
+              {
+                  "group": "Query",
+                  "pages": [
+                    "products/insights/query/tables",
+                    "products/insights/query/columns",
+                    "products/insights/query/filters",
+                    "products/insights/query/expressions"
+                  ]
+              },
+              {
+                  "group": "Miscellaneous",
+                  "pages": [
+                    "products/insights/miscellaneous/faq"
+                  ]
+              }
+          ]
+      }
+      ]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "features/introduction"
       ]
     }
   ],
